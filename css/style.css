@@ -1,1 +1,42 @@
-    
+:root {
+    --bg-color: #0a1118;
+    --primary-color-highlight: #233D54;
+
+        
+    }
+
+/*
+* Header
+*/
+header {
+    z-index: 2;
+}
+
+
+/*
+* Navigation Bar
+*/
+#navbar {
+    position: fixed ;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: teal;
+    z-index: 4;
+}
+
+.dropdown-nav__closeNavBtn {
+    position: absolute;
+    top: 20px;
+    right:16px;
+    background-color: rgba(255,255,255,255,0.5)
+}
+
+dropdown-nav__container {
+    height: 100vh;
+    padding: 0 1rem;
+    background-color: var(--bg-color);
+}
+
+resume = 40:41
