@@ -2,7 +2,7 @@
 <html lang="en">
 
 
-
+<!-- Head -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,7 +18,7 @@
 </head>
 
 
-
+<!-- Body -->
 <body class="bg-dark">
 
 
@@ -28,7 +28,6 @@
       <div class="d-flex justify-content-between align-items-center">
         <a href="/" class="text-decoration-none text-white fs-5 
         fw-bold">Kane Hooper</a>
-
           <div>
             <button class="navbar-toggler text-white" type="button"
             data-bs-toggle="collapse" data-bs-target="#navbar"
@@ -41,18 +40,17 @@
               </svg>
             </button>
           </div>
-
       </div>
     </header>
 <!-- Header End -->
 
 
-<!-- Nav Bar -->
+<!-- Flyout Navigation -->
 <nav class="collapse navbar-collapse dropdown-nav" id="navbar" style="background-color: dimgray;">
 
-  <div class="dropdown-nav__container container-xxl d-flex align-items-center">
+  <div class="dropdown-nav__container container-xxl d-flex align-items-start align-items-md-center">
    
-    <div  class="row align-items-start">
+    <div class="row align-items-start">
 
         <div class="col-12 col-sm-4">
             <a href="#" class="row text-decoration-none">
@@ -95,25 +93,7 @@
                 </div>
             </a>
         </div>
-
-
-
-
-
-
-
-
     </div>
-
-
-
-
-
-
-
-
-
-
 
     <button class="navbar-toggler dropdown-nav__closeNavBtn" type="button"
     data-bs-toggle="collapse" data-bs-target="#navbar"
@@ -128,12 +108,42 @@
   </div>
 
 </nav>
-<!-- Nav Bar End -->
+<!-- Flyout Navigation End -->
 
 
 
-<section class="">
-    <h1 class="text-center">Hello, cruel world!</h1>
+<!-- Hero Start -->
+<section class="hero">
+<!-- Hero - Video -->
+<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"
+loading="lazy" class="hero__video">
+<source src="./images/production_id_3969473 (2160p).mp4" type="video/mp4">
+</video>
+<!-- Hero - Overlay -->
+<div class="hero__content h-100 container-custom position-relative">
+    <div class="hero__content-width d-flex h-100 align-items-center">
+        <div class="text-white">
+            <h1 class="hero__heading fw-bold mb-3">Welcome to <br> Jurassic Park</h1>
+            <p class="lead mb-4 fw-bolder">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Animi ullam a vero, ut ipsa quo ipsum cum molestiae enim mollitia.</p>
+                <a href="#" class="mt-2 btn btn-lg btn-outline-light" role="button">clever girl</a>
+        </div>
+    </div>
+</div>
+<!-- Scroll Button -->
+<a href="#main-page" class="hero__scroll-btn">
+    Get Down <i class="bi bi-arrow-down-short"></i>
+</a>
+
+</section>
+
+<!-- Hero End -->
+
+
+
+<!-- Main Page -->
+<section class="" id="main-page">
+    <h1 class="text-center text-white">Hello, cruel world!</h1>
 
     <div class="card container border border-warning rounded text-center">
         <div class="row bg-primary text-white rounded-top"">
@@ -159,6 +169,6 @@
         </div>
     </div>
 </section>
-
+<!-- Main Page End -->
 </body>
 </html>
